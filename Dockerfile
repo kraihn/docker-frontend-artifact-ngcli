@@ -1,4 +1,5 @@
 FROM node:argon
+MAINTAINER Jared Dickson <code@jareddickson.com>
 
 # Update npm to 3.x latest and then install Angular CLI
 RUN npm install -g npm@3 \
