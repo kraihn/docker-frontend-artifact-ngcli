@@ -1,4 +1,4 @@
-FROM node:argon
+FROM node:latest
 MAINTAINER Jared Dickson <code@jareddickson.com>
 
 # Update npm to 3.x latest and then install Angular CLI
